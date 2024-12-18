@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.driverlicense</groupId>
+    <artifactId>DriverLicense</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>22</maven.compiler.source>
+        <maven.compiler.target>22</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <!-- JMRTD: Provided Scope -->
+        <dependency>
+            <groupId>org.jmrtd</groupId>
+            <artifactId>jmrtd</artifactId>
+            <version>0.7.42</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- Google Guava: Provided Scope -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>33.0.0-android</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+
+</project>
